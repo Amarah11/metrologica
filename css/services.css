@@ -1,0 +1,135 @@
+/* page */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-block-size: 100vh;
+}
+
+/* header */
+
+/* header */
+
+.header {   
+    max-inline-size: 1500px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    gap: 20px;
+    align-items: center;
+    padding: 70px 0px 35px 0px;
+    font-size: var(--small-text);
+}
+
+.header__logo-image {
+    max-inline-size: 258px;
+    max-block-size: 94px;
+}
+
+.header__menu-list{
+    justify-content: start; 
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.header__menu-list-item {
+    border-bottom: 2.3px solid var(--accent-color);
+    line-height: 2em;
+}
+
+.header__contact-list-link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header__contact-list-image {
+    margin-top: 3px;
+}
+
+
+/* service__list-wrapper */
+
+.service__list-wrapper {
+    max-inline-size: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    font-size: var(--regular-text);
+    color: var(--no-accent-color);
+}
+
+.service__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.service__list-title {
+    font-size: var(--title-size);
+}
+
+.service__list-item {
+    font-size: var(--subtitle-text);
+}
+
+.service__list-link {
+    border-bottom: 4px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.service__text-link {
+    color: var(--accent-color);
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* footer */
+
+.footer {
+    min-inline-size: 1500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: var(--no-accent-color);
+    font-size: var(--regular-text);
+}
+
+.footer__text {
+    margin-top: 110px;
+    max-inline-size: 343px;
+    font-size: 20px;
+}
+
+.footer__descriphion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__descriphion-container {
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer__contacts-list {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.footer__working-list {
+    margin-top: 40px;
+}

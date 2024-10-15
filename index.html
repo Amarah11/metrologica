@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Термологика - решения для холодовой цепи</title>
+    <link rel="icon" href="./img/favicon.ico" sizes="any">
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">  
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <a class="link header__logo">
+            <img 
+                class="header__logo-image"
+                src="img/logo-new.svg"
+                alt="Логотип проекта"
+              /> 
+        </a>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                    <li class="header__menu-list-item">
+                        <a href="products.html" class="link header__menu-link">Продукция</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a href="#0" class="link header__menu-link">Прайс-лист</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a href="services.html" class="link header__menu-link">Услуги</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a href="#0" class="link header__menu-link">Статьи</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a href="#0" class="link header__menu-link">Контакты</a>
+                    </li>
+            </ul>
+        </nav>
+        <address class="header__contact-list">
+            <a class="link header__contact-list-link" href="tel:+74955405256">
+                <p class="header__contact-list-text">+7 (495) 540 52-56</p>
+            </a>
+        </address>
+    </header>
+    <main class="main">
+        <section class="cover">
+            <h1 class="cover__title">
+                <span class="cover__title-accent">Надежные и удобные </span> 
+                термоконтейнеры
+            </h1>
+            <p class="cover__text">Наши термо-сумки и термо-рюкзаки обладают рядом преимуществ</p>
+            <button type="button" class="cover__btn">Перейти к каталогу</button>
+            <img 
+                src="./img/cover.jpg" 
+                alt="красивая фотография термосумки" 
+                class="cover__image"
+            >
+        </section>
+        <section class="products">
+            <article class="products__container">
+                <h2 class="products__title">Наша продукция</h2>
+                <p class="products__text">наши товары прошли все проверки и сертификацию, мы ручаемся за их исправность.</p>
+                <ul class="products__list">
+                    <li class="products__list-item item-dark">
+                        <h3 class="products__list-item-heading">Индикаторы</h3>
+                        <img 
+                            src="./img/indicators.png" 
+                            alt="два индикатора холодовой цепи" 
+                            class="products__list-item-image">
+                    </li>
+                    <li class="products__list-item item-dark">
+                        <h3 class="products__list-item-heading">Термоконтейнеры в сумках</h3>
+                        <img 
+                            src="./img/termocontainer__bag.png" 
+                            alt="Термоконтейнер из экструзионного пенополистирола " 
+                            class="products__list-item-image">
+                    </li>
+                    <li class="products__list-item item-dark">
+                        <h3 class="products__list-item-heading">Хладоэлементы</h3>
+                        <img 
+                            src="./img/hladoelement.png" 
+                            alt="хладоэлемент" 
+                            class="products__list-item-image">
+                    </li>
+                    <li class="products__list-item item-dark">
+                        <h3 class="products__list-item-heading">Термоконтейнеры в коробках</h3>
+                        <img 
+                            src="./img/termocontainer_korob.png" 
+                            alt="Термоконтейнер из вспененного пенополистирола " 
+                            class="products__list-item-image">
+                    </li>
+                </ul>
+                <p class="products__paragraph">*Обратите внимание, что наши контейнеры представлены как в коробках, так и в сумках (EPS, XPS)</p>
+            </article>
+        </section>
+        <!-- <section class="test">
+            <h2 class="test__title">Тест T-20-EPS  при +22</h2>
+            <p class="test__paragraph">Мы регулярно тестируем наши товары, чтобы у вас была лучшая продукция</p>
+            <img 
+                src="./img/график.png" 
+                alt="график термоиспытаний" 
+                class="test__image">
+        </section> -->
+        <!-- <section class="catalog">
+            <h2 class="catalog__title">Каталог</h2>
+            <ul class="catalog__list">
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-9-EPS-НК-К</h3>
+                    <img 
+                        src="./img/T-9-EPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-300-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-300-XPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-6-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-6-XPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-10-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-10-XPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-25-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-25-XPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-30-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-30-XPS-HK-K.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-50-XPS-НК-К</h3>
+                    <img 
+                        src="./img/Т-50-XPS-НК-К.png"
+                        alt="термоконтейнер" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-55-XPS-НК-К</h3>
+                    <img 
+                        src="./img/Т-55-XPS-НК-К.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-79-XPS-НК-К</h3>
+                    <img 
+                        src="./img/Т-79-XPS-НК-К.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-90-XPS-НК-К</h3>
+                    <img 
+                        src="./img/Т-90-XPS-НК-К.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-25-XPS-НК-К</h3>
+                    <img 
+                        src="./img/Т-25-XPS-НК-К-большой.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-30-XPS-НК-К</h3>
+                    <img 
+                        src="./img/T-30-XPS-HK-K.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-90-XPS-НК-С</h3>
+                    <img 
+                        src="./img/Т-90-XPS-НК-К.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-50-XPS-НК-С</h3>
+                    <img 
+                        src="./img/Т-50-XPS-НК-К.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-30-XPS-НК-С</h3>
+                    <img 
+                        src="./img/Т-30-XPS-НК-С.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Т-9-EPS-НК-С</h3>
+                    <img 
+                        src="./img/Т-9-EPS-НК-С.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-10-XPS-НК-C</h3>
+                    <img 
+                        src="./img/Т-10-XPS-НК-C.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Т-25-XPS-НК-С</h3>
+                    <img 
+                        src="./img/Т-25-XPS-НК-С.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Теплоаккумулятор ХТЛ-6</h3>
+                    <img 
+                        src="./img/Теплоаккумулятор ХТЛ-6.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Теплоаккумулятор ХТЛ-5</h3>
+                    <img 
+                        src="./img/Теплоаккумулятор ХТЛ-5.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Хладоэлемент ХТЛ-4-1.45</h3>
+                    <img 
+                        src="./img/Хладоэлемент ХТЛ-4-1.45.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Хладоэлемент ХТЛ-4</h3>
+                    <img 
+                        src="./img/Хладоэлемент ХТЛ-4.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Хладоэлемент ХТЛ-3-1.45</h3>
+                    <img 
+                        src="./img/Хладоэлемент ХТЛ-3-1.45.png"
+                        alt="термоконтейнер-Т300" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">300л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-light">
+                    <h3 class="catalog__list-item-heading heading-light">Хладоэлемент ХТЛ-3</h3>
+                    <img 
+                        src="./img/Хладоэлемент ХТЛ-3.png"
+                        alt="хладоэлемент" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">9,8л</span>
+                            <span class="paragraph__no-accent">объем</span> 
+                        </li>
+                        <li class="ophions__item ophions__item-light">
+                            <span class="paragraph__accent">0,9кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Термоиндикатор ТЛ-И3</h3>
+                    <img 
+                        src="./img/Термоиндикатор ТЛ-И3.png"
+                        alt="термокоиндикатор" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,017кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">ТЛ-И2 (Гам-Ковид-Вак)</h3>
+                    <img 
+                        src="./img/ТЛ-И2 (Гам-Ковид-Вак).png"
+                        alt="теплоиндикатор" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,02кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="catalog__item catalog__item-dark">
+                    <h3 class="catalog__list-item-heading heading-dark">Термоиндикатор ТЛ-И2</h3>
+                    <img 
+                        src="./img/Термоиндикатор ТЛ-И2.png"
+                        alt="термоконтейнер-Т9" 
+                        class="catalog__list-item-image">
+                    <ul class="catalog__list-item-ophions-list">
+                        <li class="ophions__item ophions__item-dark">
+                            <span class="paragraph__accent">0,02кг</span>
+                            <span class="paragraph__no-accent">вес</span> 
+                        </li>
+                    </ul>
+                </li>           
+            </ul>
+        </section>
+        -->
+        <!-- <section class="map">
+            <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae4b5487eda001a47b7ed74d7fcedfdb89469215e04c60f4c6124293dd4c6be33&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+        </section> -->
+        <!-- <section class="contacts">
+            <h2 class="contacts__maps-title">Контакты</h2>
+            <article class="contacts__description-list">
+                <article class="contacts__description-item">
+                    <h3 class="contacts__description-title">Адрес:</h3>
+                    <p class="contacts__descriphion-text">141009, Московская область,г. Мытищи, ул. Коминтерна, д.7/2</p>
+                </article>
+                <article class="contacts__description-item">
+                    <h3 class="contacts__description-title">Телефон:</h3>
+                    <p class="contacts__description-text">+7 (495) 540-52-56</p>
+                </article>
+                <article class="contacts__description-item">
+                    <h3 class="contacts__description-title">Время работы:</h3>
+                    <p class="contacts__description-text">Ежедневно: 9:00 - 18:00</p>
+                </article>
+            </article>
+        </section> -->
+        <section class="for-medicine">
+            <article class="for-medicine__container">
+                <h2 class="for__medicine__container-title">Для медицины</h2>
+                <p class="for-medicine_-container-text">Наши контейнеры идеальны для транспортировки медицинских препаратов, скоропортящихся вакцин. Контейнеры с хладоэлеентами поддерживают стабильную температуру до 72 часов. Многофункциональное внутреннее покрытие позволяет легко дезинфицировать контейнер и использовать его повторно без потери качества.</p>
+            </article>
+        </section> 
+        <section class="for-catering">
+            <article class="for-catering__container">
+                <h2 class="for__catering__container-title">Кейтеринг</h2>
+                <p class="for-catering_-container-text">Правильная настройка охлаждающих элементов и отслеживание при помощи термоиндикаторов позволяет перевозить и хранить в наших контейнерах свежие овощи и фрукты. Сохраняя их качество без переморозки и гнили.</p>
+            </article>
+        </section> 
+        <!-- <section class="map">
+            <article class="map__container">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae4b5487eda001a47b7ed74d7fcedfdb89469215e04c60f4c6124293dd4c6be33&amp;source=constructor" width="1440px" height="400" frameborder="0"></iframe>
+            </article>
+            <article class="map__descriphion">
+                <h3 class="map__descriphion-title">Мы производим термоконтейнеры, хладоэлементы и теплоиндикаторы уже более 10 лет</h3>
+                <p class="map__descriphion-text">Компания "Термологика" была основана в 2011 году.</p>
+                <p class="map__descriphion-text">Десятки тысяч наших термоконтейнеров, хладоэлементов и термоиндикаторов защищают термолабильные товары при первозках по всей России, а зачастую отправляются и за рубеж.</p>
+            </article>
+        </section> -->
+    </main>
+    <footer class="footer">
+        <article class="footer__logo">
+            <a href="index.html" class="link footer__logo-link">
+                <img 
+                    class="footer__logo-image"
+                    src="./img/logo-new.png"
+                    alt="Логотип проекта"
+                /> 
+            </a>
+            <p class="footer__text">© ООО "Термологика" <br> 141009, Московская область, г. Мытищи, ул. Коминтерна, д.7/2</p>
+        </article>
+        <ul class="footer__descriphion-list">
+            <li class="footer__menu-list-item">
+                <a href="products.html" class="link">Продукция</a>
+            </li>
+            <li class="footer__menu-list-item">
+                <a href="#0" class="link">Прайс-лист</a>
+            </li>
+            <li class="footer__menu-list-item">
+                <a href="services.html" class="link">Услуги</a>
+            </li>
+            <li class="footer__menu-list-item">
+                <a href="#0" class="link">Статьи</a>
+            </li>
+            <li class="footer__menu-list-item">
+                <a href="#0" class="link">Контакты</a>
+            </li>
+        </ul>
+        <article class="footer__descriphion-container">
+            <article class="footer__contacts-list">
+                <a class="link" href="tel:+74955405256">+7 (495) 540-52-56</a>
+                <a class="link" href="mail:zakaz@termologika.ru">zakaz@termologika.ru</a>
+                <ul class="footer__working-list">
+                    <li class="footer__working-item">Время работы:</li>
+                    <li class="footer__working-item">9:00-18:00 часов</li>
+                </ul>
+            </article>
+        </article>
+    </footer> 
+</body>
+</html>
